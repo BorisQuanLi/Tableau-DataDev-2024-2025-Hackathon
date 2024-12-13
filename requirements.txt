@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-dotenv
+tableauserverclient
+tableauhyperapi
+# Add other dependencies as needed
