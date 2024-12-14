@@ -10,6 +10,211 @@ venv.bak/
 # Ignore virtual environment
 tableau-fastapi-venv/
 
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+*.hyper
+
+# Ignore the entire notes folder and all files in it
+notes/
+# Environments - common names for virtual environments and environment files
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore virtual environment
+tableau-fastapi-venv/
+
 # Ignore environment variables file
 .env
 
