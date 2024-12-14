@@ -3,4 +3,5 @@ uvicorn
 python-dotenv
 tableauserverclient
 tableauhyperapi
+psycopg2-binary
 # Add other dependencies as needed
