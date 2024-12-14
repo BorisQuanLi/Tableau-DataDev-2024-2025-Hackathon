@@ -53,3 +53,48 @@ In addition to these extensions, there are a few settings that are also useful t
 - Python > Analysis > **Type Checking Mode** : `basic`
 - Python > Analysis > Inlay Hints: **Function Return Types** : `enable`
 - Python > Analysis > Inlay Hints: **Variable Types** : `enable`
+
+# Tableau DataDev 2024-2025 Hackathon
+
+## Requirements
+
+- Python 3.10.12
+- FastAPI
+- Uvicorn
+- python-dotenv
+- tableauserverclient
+- tableauhyperapi
+
+## Setup
+
+1. Create a virtual environment with Python 3.10:
+   ```sh
+   python3.10 -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   ```sh
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. Install the dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. Create a `.env` file with your Tableau Cloud credentials:
+   ```
+   TABLEAU_SERVER_URL=https://10ax.online.tableau.com
+   TABLEAU_USERNAME=your-username
+   TABLEAU_PASSWORD=your-password
+   TABLEAU_SITE_ID=your-site-id
+   ```
+
+5. Run the application:
+   ```sh
+   uvicorn main:app --reload
+   ```
+
+## Usage
+
+- Access the API at `http://127.0.0.1:8000`

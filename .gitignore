@@ -26,3 +26,6 @@ venv/
 
 # Ignore data files
 *.hyper
+
+# Ignore development-notes file
+notes.md
