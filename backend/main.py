@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from backend.multi_agent_llm.llm_agent import LLMAgent
 from backend.multi_agent_llm.data_ingestion_agent import ingest_data
 from backend.multi_agent_llm.model_training_agent import train_model
 from backend.multi_agent_llm.inference_agent import generate_predictions
@@ -8,7 +9,7 @@ app = FastAPI()
 messages_list: dict[int, str] = {}
 
 @app.get("/")
-def root() -> dict[str, str]:
+def read_main() -> dict[str, str]:
     return {"message": "Hello"}
 
 @app.get("/about")
@@ -44,3 +45,10 @@ def generate_predictions_route() -> dict[str, str]:
 def communicate_route() -> dict[str, str]:
     communicate()
     return {"message": "Communication completed"}
+
+def main():
+    llm_agent = LLMAgent()
+    llm_agent.run()
+
+if __name__ == "__main__":
+    main()

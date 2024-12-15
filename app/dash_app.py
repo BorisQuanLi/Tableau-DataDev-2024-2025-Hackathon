@@ -1,27 +1,18 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 import plotly.express as px
 import pandas as pd
-import psycopg2
+from backend.utils.db_utils import fetch_data
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
-# Connect to PostgreSQL and fetch data
-def fetch_data():
-    conn = psycopg2.connect(
-        dbname="tableau_data_dev",
-        user="your_username",
-        password="your_password",
-        host="localhost"
-    )
-    df = pd.read_sql("SELECT * FROM payroll_data", conn)
-    conn.close()
-    return df
-
 # Fetch data from PostgreSQL
-df = fetch_data()
+try:
+    df = fetch_data("SELECT * FROM payroll_data")
+except Exception as e:
+    df = pd.DataFrame(columns=["base_salary", "total_pay", "employee_name"])
+    print(f"Error fetching data: {e}")
 
 # Create a Plotly figure
 fig = px.scatter(df, x="base_salary", y="total_pay", color="employee_name", title="Citywide Payroll Data")
