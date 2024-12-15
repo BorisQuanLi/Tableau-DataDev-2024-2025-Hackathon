@@ -4,4 +4,6 @@ python-dotenv
 tableauserverclient
 tableauhyperapi
 psycopg2-binary
+pytest
 # Add other dependencies as needed
+# ...other dependencies...

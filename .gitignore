@@ -1,5 +1,4 @@
 # Environments - common names for virtual environments and environment files
-.env
 .venv
 env/
 ENV/
@@ -19,7 +18,6 @@ __pycache__/
 
 # Ignore virtual environment directories
 venv/
-.env/
 
 # Ignore log files
 *.log
@@ -33,44 +31,9 @@ docs/
 # Ignore requirements file
 requirements.txt
 
-.env
-.venv
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# Ignore virtual environment
-tableau-fastapi-venv/
-
-# Ignore environment variables file
-.env
-
-# Ignore Python cache files
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore virtual environment directories
-venv/
-.env/
-
-# Ignore log files
-*.log
-
-# Ignore data files
-*.hyper
-
-# Ignore development-notes file
-docs/notes.md
-
 # Ignore notebook files
 docs/tableau_authentication_notes.ipynb
 docs/synergies_notes.ipynb
 
 # Ignore Tableau hackathon rules file
 docs/tableau-hackathon-rules.md
-
-# Ignore separate notes files
-docs/tableau_authentication_notes.md
-docs/synergies_notes.md
