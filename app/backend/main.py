@@ -4,6 +4,7 @@ from backend.multi_agent_llm.data_ingestion_agent import ingest_data
 from backend.multi_agent_llm.model_training_agent import train_model
 from backend.multi_agent_llm.inference_agent import generate_predictions
 from backend.multi_agent_llm.communication_agent import communicate
+import uvicorn
 
 app = FastAPI()
 messages_list: dict[int, str] = {}

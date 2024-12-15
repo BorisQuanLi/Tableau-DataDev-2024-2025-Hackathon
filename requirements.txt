@@ -5,6 +5,7 @@ tableauserverclient
 tableauhyperapi
 psycopg2-binary
 pytest
+pytest-cov
 dash
 dash-core-components
 dash-html-components
@@ -12,4 +13,5 @@ plotly
 pandas
 psycopg2
 httpx
+sqlalchemy
 

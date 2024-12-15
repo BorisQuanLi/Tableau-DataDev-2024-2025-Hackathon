@@ -2,10 +2,13 @@ import dash
 from dash import dcc, html
 import plotly.express as px
 import pandas as pd
-from backend.utils.db_utils import fetch_data
+from app.backend.utils.db_utils import fetch_data, create_payroll_data_table
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+
+# Ensure the table is created
+create_payroll_data_table()
 
 # Fetch data from PostgreSQL
 try:
