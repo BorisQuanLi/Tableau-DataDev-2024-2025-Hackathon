@@ -1,8 +1,7 @@
 import pytest
 from unittest.mock import patch, MagicMock
-from backend.etl.data_transformation import transform_data
-from backend.etl.load_data import load_data
 from backend.etl.etl import run_etl
+from backend.models.data_transformation import transform_data
 
 def test_transform_data():
     raw_data = [

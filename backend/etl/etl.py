@@ -1,8 +1,8 @@
 import logging
-from .nyc_payroll_extraction import extract_nyc_payroll_data, NYC_PAYROLL_API_URL
-from .db_connection import connect_to_db
+from backend.etl.nyc_payroll_extraction import extract_nyc_payroll_data, NYC_PAYROLL_API_URL
+from backend.etl.db_connection import connect_to_db
 from backend.models.data_transformation import transform_data
-from .load_data import load_data
+from backend.etl.load_data import load_data
 
 def run_etl():
     """
