@@ -28,9 +28,6 @@ venv/
 # Ignore the entire docs folder and all files in it
 docs/
 
-# Ignore requirements file
-requirements.txt
-
 # Ignore notebook files
 docs/tableau_authentication_notes.ipynb
 docs/synergies_notes.ipynb
