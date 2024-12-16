@@ -1,8 +1,5 @@
 import sys
-# This file is intentionally left blank to make the directory a package.
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../app')))
-
+sys.path.insert(0, '/mnt/c/Users/Boris_Li/OneDrive/Job_search_2024/Software_Engineer_roles/Tableau-DataDev-2024-2025-Hackathon')
 from backend.etl.multi_agent_llm import CommunicationAgent, DataIngestionAgent, InferenceAgent, LLMAgent, ModelTrainingAgent
 
 def test_communication_agent():
